@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import useStorage from "../hooks/useStorage";
 function ProgressBar({ file, setFile }) {
+  
   const { url, progress } = useStorage(file);
 
     useEffect(()=>{
